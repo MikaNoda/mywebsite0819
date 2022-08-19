@@ -1,0 +1,126 @@
+/* *{
+    border: solid 1px black;
+}  */
+
+.header-left{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+.kv{
+    background-image: url(../img/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.subtitle{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 100px 0 40px;
+}
+
+.profile-img{
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-img{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.profile-details{
+    display: flex;
+    margin: 30px 30px;
+}
+
+.profile-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details-left{
+    font-weight: bold;
+}
+
+.ditails-right{
+    margin-left: 20px;
+}
+
+.profile-details p{
+    line-height: 2;
+}
+
+.text{
+    margin-top: 30px;
+    text-align: center;
+    padding: 30px 200px;
+}
+
+#miyakojima img{
+    width: 150px;
+}
+
+#miyakojima {
+    display: flex;
+    justify-content: space-around;
+}
+
+#miyakojima p{
+    margin: 0 auto;
+    width: 350px;
+}
+
+.rec,.rec-center,.rec-bottom{
+    text-align: center;
+}
+
+.rec-title{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#miyakojima img{
+    width: auto;
+    height: 500px;
+}
+
+footer{
+    background-color: blue;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
