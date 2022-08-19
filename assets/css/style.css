@@ -2,13 +2,43 @@
     border: solid 1px black;
 }  */
 
-.header-left{
-    font-size: 20px;
+.header-title {
+    font-size: 25px;
     font-weight: bold;
-    padding: 10px 30px;
+    margin-left: 20px;
 }
 
-.kv{
+.header-left img{
+    width: 40px;
+    height: auto;
+}
+
+/* .header-left{
+    display: flex;
+    align-items: center;
+} */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-image: url(../img/bingata.jpeg);
+    background-size: cover;
+}
+
+ul {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.kv {
     background-image: url(../img/background.jpeg);
     background-size: cover;
     background-position: center;
@@ -18,75 +48,75 @@
     justify-content: center;
 }
 
-.main-title{
+.main-title {
     color: white;
     font-size: 80px;
     font-weight: bold;
 }
 
-.subtitle{
+.subtitle {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
     margin: 100px 0 40px;
 }
 
-.profile-img{
+.profile-img {
     width: 250px;
     height: auto;
     border-radius: 50%;
 }
 
-.profile-img{
+.profile-img {
     margin-left: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.profile-title{
+.profile-title {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 50px;
 }
 
-.profile-details{
+.profile-details {
     display: flex;
     margin: 30px 30px;
 }
 
-.profile-right{
+.profile-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.details-left{
+.details-left {
     font-weight: bold;
 }
 
-.ditails-right{
+.ditails-right {
     margin-left: 20px;
 }
 
-.profile-details p{
+.profile-details p {
     line-height: 2;
 }
 
-.text{
+.text {
     margin-top: 30px;
     text-align: center;
     padding: 30px 200px;
 }
 
-#miyakojima img{
+#miyakojima img {
     width: 150px;
 }
 
@@ -95,32 +125,37 @@
     justify-content: space-around;
 }
 
-#miyakojima p{
+#miyakojima p {
     margin: 0 auto;
-    width: 350px;
+    width: 300px;
 }
 
-.rec,.rec-center,.rec-bottom{
+.rec,
+.rec-center,
+.rec-bottom {
     text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.rec-title{
+.rec-title {
     text-decoration: underline;
     font-size: 20px;
     font-weight: bold;
 }
 
-#miyakojima img{
+#miyakojima img {
     width: auto;
     height: 500px;
 }
 
-footer{
-    background-color: blue;
+footer {
+    background-image: url(../img/bingata.jpeg);
+    background-size: cover;
+    background-position: bottom;
     padding: 10px 30px;
-    color: white;
+    color: black;
     font-weight: bold;
     text-align: center;
     margin-top: 30px;
 }
-
