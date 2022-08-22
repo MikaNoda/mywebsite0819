@@ -13,10 +13,6 @@
     height: auto;
 }
 
-/* .header-left{
-    display: flex;
-    align-items: center;
-} */
 
 header {
     display: flex;
@@ -36,7 +32,7 @@ ul {
 }
 
 li {
-    margin-left: 20px;
+    margin: 20px;
 }
 
 .kv {
@@ -59,9 +55,8 @@ li {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    margin: 70px 0 30px;
+    margin: 100px 0 50px;
 }
-
 
 .profile-img {
     width: 250px;
@@ -85,39 +80,19 @@ li {
     margin: 0 50px;
 }
 
-/* .profile-details {
-    display: flex;
-    margin: 30px 30px;
-} */
-
 .profile-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-/* .details-left {
-    font-weight: bold;
-} */
-
-/* .ditails-right {
-    margin-left: 20px;
-} */
-
-/* .profile-details p {
-    line-height: 2;
-} */
-
-.detaile td {
-    padding-right: 10px;
-}
-
 .detaile th {
-    padding-right: 15px;
+    padding: 5px 15px 5px 0;
     white-space: nowrap;
 }
 
 .text {
+    font-size: 15px;
     margin-top: 30px;
     text-align: center;
     padding: 30px 200px;
@@ -279,17 +254,18 @@ footer {
 
     form input,
     textarea {
-        width: 250px;
-        font-size: 16px;
+        width: 70%;
+        font-size: 12px;
     }
 
-    form button{
+    button{
         width: 100px;
-
     }
+
 
     footer {
         margin-top: 50px;
         font-size: 12px;
+        width: 80%;
     }
 }
