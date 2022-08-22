@@ -32,7 +32,7 @@ ul {
     color: white;
     font-size: 20px;
     font-weight: bold;
-    text-shadow: -1px -1px 4px gray, -1px 0 4px gray, -1px 1px 4px gray,0 -1px 4px gray, 0 1px 4px gray,1px -1px 4px gray, 1px 0 4px gray, 1px 1px 4px gray;
+    text-shadow: -1px -1px 4px gray, -1px 0 4px gray, -1px 1px 4px gray, 0 -1px 4px gray, 0 1px 4px gray, 1px -1px 4px gray, 1px 0 4px gray, 1px 1px 4px gray;
 }
 
 li {
@@ -59,7 +59,7 @@ li {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    margin: 100px 0 40px;
+    margin: 70px 0 30px;
 }
 
 
@@ -152,13 +152,58 @@ li {
     font-weight: bold;
 }
 
+.rec-text {
+    padding: 10px 10px;
+}
+
+form * {
+    margin: 0 auto;
+    display: block;
+}
+
+form input,
+textarea {
+    border: solid 2px darkgray;
+    border-radius: 5px;
+    width: 350px;
+    margin-bottom: 10px;
+    padding: 3px 10px;
+    font-size: 20px;
+}
+
+input:focus {
+    outline: solid 2px blue;
+}
+
+textarea:focus {
+    outline: solid 2px blue;
+}
+
+form button {
+    border: solid 2px darkgray;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px 10px;
+    width: 150px;
+    text-align: center;
+    background-color: #ff8c00;
+    color: white;
+    transition: background-color 2s linear .5s;
+}
+
+form button:hover {
+    background-color: blue;
+    color: white;
+}
+
 footer {
     background-image: url(../img/bingata.jpeg);
     background-size: cover;
     background-position: bottom;
     padding: 10px 30px;
     color: white;
-    text-shadow: -1px -1px 4px gray, -1px 0 4px gray, -1px 1px 4px gray,0 -1px 4px gray, 0 1px 4px gray,1px -1px 4px gray, 1px 0 4px gray, 1px 1px 4px gray;
+    text-shadow: -1px -1px 4px gray, -1px 0 4px gray, -1px 1px 4px gray, 0 -1px 4px gray, 0 1px 4px gray, 1px -1px 4px gray, 1px 0 4px gray, 1px 1px 4px gray;
     font-weight: bold;
     text-align: center;
     margin-top: 100px;
@@ -201,7 +246,7 @@ footer {
 
     .detaile td,
     th {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .text {
@@ -223,6 +268,7 @@ footer {
 
     .rec-text {
         font-size: 12px;
+        padding: 10px 30px;
     }
 
     .rec,
@@ -231,7 +277,18 @@ footer {
         margin-bottom: 25px;
     }
 
-    footer{
+    form input,
+    textarea {
+        width: 250px;
+        font-size: 16px;
+    }
+
+    form button{
+        width: 100px;
+
+    }
+
+    footer {
         margin-top: 50px;
         font-size: 12px;
     }
