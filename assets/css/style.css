@@ -57,7 +57,7 @@ li {
     margin-bottom: 50px;
 }
 
-section{
+#about,#recommend,#contact{
     padding-top: 120px;
 }
 
@@ -218,7 +218,7 @@ footer {
         margin-bottom:15px;
     }
 
-    section{
+    #about,#recommend,#contact{
         padding-top: 75px;
     }
 
